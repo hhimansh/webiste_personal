@@ -1,0 +1,235 @@
+/* ---------------------------------------- */
+/* Basic Setup */
+/* ---------------------------------------- */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Arial','sans-serif';
+    font-weight:300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------------------- */
+/* Reusable component */
+/* ---------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin : 0 auto 0 auto;
+}
+
+/* ---------------------------------------- */
+/* Headings*/
+/* ---------------------------------------- */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#fff;
+    font-size: 200%;
+    font-weight:300;
+    text-transform :uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 300;
+    
+}
+
+h4 {
+    font-size: 110%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2:after {
+    display: block;
+    height:2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 50px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+.work,.section-work h2 {
+    color:#fff;
+}
+
+/* ---------------------------------------- */
+/* Paragraphs */
+/* ---------------------------------------- */
+
+.box1 p {
+    text-align: justify;
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.section-work {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)),url(img/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.work-intro {
+    color: #fff;
+    padding: 20px;
+    font-size: 90%;
+    line-height: 145%;
+    text-align: center;
+}
+
+.project1, .project2 {
+    color:#fff;
+}
+
+
+/* ---------------------------------------- */
+/* Buttons */
+/* ---------------------------------------- */
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+
+.btn-formal:link,
+.btn-formal:visited {
+    background-color: #e67e22;
+    border : 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-casual:link,
+.btn-casual:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    margin-left: 10px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #a15512;
+}
+
+.btn-formal:hover,
+.btn-formal:active {
+    font-weight:400;
+}
+
+.btn-casual:hover,
+.btn-casual:active {
+    color: #fff;
+}
+
+
+/* ---------------------------------------- */
+/* Logos */
+/* ---------------------------------------- */
+
+.main-logo {
+    color: #e67e22;
+}
+
+.education-logo {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    text-align: center;
+}
+
+.project-logo {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    text-align: center;
+}
+
+
+
+/* ---------------------------------------- */
+/* Headers */
+/* ---------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)),url(img/image5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.intro-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+}
+
+.logo {
+    height: 60px;
+    border-radius: 100px;
+    width:auto;
+    float:left;
+    margin-top: 10px;
+}
+
+.name {
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 80%;
+    margin-left:40px
+}
+
+.name:hover {
+    border-bottom: 1px solid #e67e22;
+}
+
+.main-nav {
+    float:right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 8px 0;
+    transition: border-bottom 0.4s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
