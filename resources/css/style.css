@@ -70,6 +70,8 @@ h2:after {
     color:#fff;
 }
 
+
+
 /* ---------------------------------------- */
 /* Paragraphs */
 /* ---------------------------------------- */
@@ -78,6 +80,7 @@ h2:after {
     text-align: justify;
     font-size: 90%;
     line-height: 145%;
+    padding: 2%;
 }
 
 .section-work {
@@ -85,18 +88,22 @@ h2:after {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .work-intro {
     color: #fff;
     padding: 20px;
-    font-size: 90%;
+    font-size: 110%;
     line-height: 145%;
     text-align: center;
 }
 
-.project1, .project2 {
+.box2 {
     color:#fff;
+    text-align: justify;
+    font-size; 100%;
+    line-height: 145%;
 }
 
 
@@ -110,14 +117,13 @@ h2:after {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-formal:link,
 .btn-formal:visited {
-    background-color: #e67e22;
-    border : 1px solid #e67e22;
-    color: #fff;
+    border : 2px solid rgba(217, 134, 72, 0.9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .btn-casual:link,
@@ -129,7 +135,8 @@ h2:after {
 
 .btn:hover,
 .btn:active {
-    background-color: #a15512;
+    background-color: rgba(252, 252, 252, 0.5);
+    color: #000000;
 }
 
 .btn-formal:hover,
@@ -147,10 +154,6 @@ h2:after {
 /* Logos */
 /* ---------------------------------------- */
 
-.main-logo {
-    color: #e67e22;
-}
-
 .education-logo {
     font-size: 350%;
     display: block;
@@ -165,17 +168,37 @@ h2:after {
     text-align: center;
 }
 
+.logo {
+    height: 40px;
+    width:auto;
+    float:left;
+    margin-top: 20px;
+    background-color: rgba(39, 34, 20, 0.24);
+    color: rgba(21, 19, 19, 0.49);
+}
+
+
 
 
 /* ---------------------------------------- */
 /* Headers */
 /* ---------------------------------------- */
 
+.header-name {
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    color: rgba(178, 177, 174, 0.76);
+}
+
+
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)),url(img/image5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.69)),url(img/jordan_white.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .intro-text-box {
@@ -186,13 +209,6 @@ header {
     transform : translate(-50%, -50%);
 }
 
-.logo {
-    height: 60px;
-    border-radius: 100px;
-    width:auto;
-    float:left;
-    margin-top: 10px;
-}
 
 .name {
     margin: 0 auto 0 auto;
@@ -232,4 +248,46 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+.sec-nav {
+    float: left;
+    margin-left: 100px; 
+    list-style: none;
+    margin-left: 300px;
+}
+
+.sec-nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.sec-nav li a:link,
+.sec-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 350;
+    font-size: 80%;
+    padding: 5px;
+}
+
+.sec-nav li a:hover,
+.sec-nav li a:active {
+    border-bottom: 1px solid #e67e22; 
+}
+
+
+/* ---------------------------------------- */
+/* Quotes */
+/* ---------------------------------------- */
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    font-size: 300%;
+}
+
+cite {
+    display: block;
 }
