@@ -1,2 +1,2 @@
-# webiste_personal
-Personal Website
+# web_personal
+Personal Web
