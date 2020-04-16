@@ -251,16 +251,15 @@ header {
 }
 
 .sec-nav {
-    float: left;
-    margin-left: 100px; 
+    float: left; 
     list-style: none;
-    margin-left: 300px;
+    margin-left:250px;
 }
 
 .sec-nav li {
     display: inline-block;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .sec-nav li a:link,
@@ -290,4 +289,87 @@ blockquote {
 
 cite {
     display: block;
+}
+
+
+/* ---------------------------------------- */
+/* Footer */
+/* ---------------------------------------- */
+
+
+footer {
+    background-color: #6c6c6c;
+    padding: 20px;
+    font-size: 80%;
+}
+
+.bottom-nav {
+    float: left;
+    margin: 0px 0 40px 40px; 
+}
+
+.social-nav {
+    float: right;
+    margin: 0px 40px 40px 0;
+}
+
+.social-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.bottom-nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.bottom-nav li a:link,
+.bottom-nav li a:visited,
+.social-nav li a:link,
+.social-nav li a:visited{
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    border: 0;
+    color: #888;
+}
+
+.bottom-nav li a:hover,
+.bottom-nav li a:active {
+    color: #000000;
+}
+
+.social-nav li a:link,
+.social-nav li a:visited {
+    font-size: 160%;
+}
+
+footer p {
+    text-align:center;
+    margin-top: 40px;
+}
+
+
+/* ---------------------------------------- */
+/* Social links */
+/* ---------------------------------------- */
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-twitter:hover {
+    color: #00aced;
+}
+
+.ion-logo-instagram:hover {
+    color: #517fa4;
+}
+
+.ion-logo-linkedin:hover {
+    color: #0e76a8;
+}
+
+.ion-logo-youtube:hover {
+    color: #c4302b;
 }
