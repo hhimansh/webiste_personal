@@ -31,6 +31,10 @@
             .fact2 h3 {font-size: 90%;}
     
             .fact2 h2 {font-size: 120%;}
+    
+            footer p {
+                margin-bottom: 1%;
+            }
 
 }
 
@@ -51,6 +55,23 @@
             h4 { font-size: 70%;}
     
             .about-header {font-size: 200%;}
+    
+            .fact1 img {
+            height: 50%;
+            width: 80%;
+            }
+    
+            footer p {
+                font-size: 70%;
+                margin-left: 50px;
+            }
+    
+    
+            .social-nav li a:link,
+            .social-nav li a:visited {
+                font-size: 120%;
+                margin-top: 15%;
+        }
     
 }
 
@@ -73,6 +94,42 @@
                 font-size: 50%;
                 }
 
-                h4 {font-size: 50%;}
+                h4 {
+                    font-size: 60%;
+                    margin-left: 10px;
+                }
+    
+                .about-header {font-size: 150%;}
+    
+                .fact2 h2 {
+                    font-size: 100%;
+                    margin-top: 50px;
+                }
+                
+                .fact2 h3 {
+                    font-size: 70%;
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                }
+
+                .more-info h2 {
+                    font-size: 100%;
+                }
+                .more-info p {
+                    font-size: 90%;
+                    text-align: justify;
+                }
+
+                .contact {
+                    margin-left: 5%;
+                    margin-right: 5%;
+                }
+                .contact h2 {font-size: 100%;}
+                .contact div {font-size: 80%;}
+    
+                .social-nav li a:link,
+            .social-nav li a:visited {
+            font-size: 90%;
+            }
     
 }
