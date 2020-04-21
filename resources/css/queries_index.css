@@ -37,6 +37,10 @@
     
             h4 {font-size: 90%;}
     
+            footer p {
+                margin-bottom: 1%;
+            }
+    
 }
 
 
@@ -61,6 +65,18 @@
             }
     
             h4 {font-size: 70%;}
+    
+            footer p {
+                font-size: 70%;
+                margin-left: 50px;
+            }
+    
+    
+            .social-nav li a:link,
+            .social-nav li a:visited {
+                font-size: 120%;
+                margin-top: 15%;
+        }
 }
 
 
@@ -87,6 +103,11 @@
             }
     
             h4 {font-size: 50%;}
+    
+             .social-nav li a:link,
+            .social-nav li a:visited {
+            font-size: 90%;
+            }
     
     
 }
