@@ -31,6 +31,10 @@
             .sec-nav {margin-left: 120px;}
     
             h4 {font-size: 90%;}
+    
+            footer p {
+                margin-bottom: 1%;
+            }
 }
 
 
@@ -60,6 +64,19 @@
             .res2 ul {font-size: 80%;}
     
     
+            footer p {
+                font-size: 70%;
+                margin-left: 50px;
+            }
+    
+    
+            .social-nav li a:link,
+            .social-nav li a:visited {
+                font-size: 120%;
+                margin-top: 15%;
+            }
+    
+    
 }
 
 
@@ -79,8 +96,36 @@
                 font-size: 50%;
                 }
 
-                h4 {font-size: 50%;}
+                h4 {
+                    font-size: 60%;
+                    margin-left: 10px;
+                }
                 .resume-header { font-size: 150%; }
+    
+                .res2 ul {
+                    font-size: 60%;
+                    margin-left: 10px;
+                }
+                .res2 {text-align: left;}
+                h2 {text-align: center;}
+                h3 {
+                    margin-top: 20px;
+                    margin-left: 10px;
+                }
+    
+                .description {
+                    font-size: 60%;
+                    margin-left: 10px;
+                }
+                
+                .col {
+                    width: 100%;
+                }
+    
+                .social-nav li a:link,
+            .social-nav li a:visited {
+            font-size: 90%;
+            }
     
     
 }
