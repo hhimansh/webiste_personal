@@ -173,7 +173,7 @@ footer {
     text-decoration: none;
     margin: 0 10px 0 10px;
     border: 0;
-    color: #a28e8e;
+    color: #ffffff;
 }
 
 .bottom-nav li a:hover,
@@ -189,6 +189,8 @@ footer {
 footer p {
     text-align:center;
     margin-top: 40px;
+    color: #ffffff;
+    font-size: 70%;
 }
 
 
