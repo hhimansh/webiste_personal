@@ -230,3 +230,27 @@ footer p {
     font-size: 110%;
     text-decoration: none; 
 }
+
+/* ---------------------------------------- */
+/* Social links */
+/* ---------------------------------------- */
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-twitter:hover {
+    color: #00aced;
+}
+
+.ion-logo-instagram:hover {
+    color: #517fa4;
+}
+
+.ion-logo-linkedin:hover {
+    color: #0e76a8;
+}
+
+.ion-logo-youtube:hover {
+    color: #c4302b;
+}
