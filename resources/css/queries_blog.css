@@ -1,4 +1,5 @@
 /* big tablets to 1200px */
+
 @media only screen and (max-width: 1200px) {
     
                     .main-nav {
@@ -20,27 +21,62 @@
                     margin-left:200px;
                     }
     
+                    .introduction .intro h2 {
+                        font-size: 80%;
+                        margin-left: 20px;
+                    }
+
                     .header-name {
                         font-size: 80%;
                     }
     
-                    .fact2 h3 {
+                    .space_blog .space h2 {
+                        font-size: 90%;
                         margin-right: 20px;
+                    }    
+                    .space_blog .space h2 a {
+                        font-size: 100%;
+                        margin-left: 20px;
+                    }
+
+                    .world_news .news h2 {
+                        font-size: 90%;
+                        margin-right: 20px;
+                    }
+
+                    .world_news .news h2 a {
+                        font-size: 100%;
+                        margin-left: 20px;
+                    }
+
+                    .books_read .books h2 {
+                        font-size: 90%;
+                        margin-right: 20px;
+                    }
+
+                    .books_read .books h2 a {
+                        font-size: 100%;
+                        margin-left: 20px;
                     }
     
                     .social-nav li a i{
                         font-size: 80%;
                     }
+    
+    
 }
 
 
 
+
+
 /* small to big tablets : from 768px to 1023px */
+
 @media only screen and (max-width: 1023px) {
-  
+    
                     .main-nav {
-                        margin-top: 15px;
-                        margin-right: 5%;
+                    margin-top: 15px;
+                    margin-right: 5%;
                     }
 
                     .sec-nav {margin-left: 120px;}
@@ -55,33 +91,59 @@
                         font-size: 50%;
                     }
     
-                    h4 {font-size: 90%;}
-    
-                    .fact2 h3 {font-size: 90%;}
-    
-                    .fact2 h2 {font-size: 120%;}
-    
-                    footer p {
-                        margin-bottom: 1%;
+                    .introduction .intro h2 {
+                        font-size: 70%;
+                        margin-left: 20px;
                     }
-    
+
                     .header-name {
                         font-size: 50%;
                     }
     
-                    .bottom-nav li a {
+                    .space_blog .space h2 {
+                        font-size: 80%;
+                        margin-right: 20px;
+                    }    
+                    .space_blog .space h2 a {
+                        font-size: 100%;
+                        margin-left: 20px;
+                    }
+
+                    .world_news .news h2 {
+                        font-size: 80%;
+                        margin-right: 20px;
+                    }
+
+                    .world_news .news h2 a {
+                        font-size: 100%;
+                        margin-left: 20px;
+                    }
+
+                    .books_read .books h2 {
+                        font-size: 80%;
+                        margin-right: 20px;
+                    }
+
+                    .books_read .books h2 a {
+                        font-size: 100%;
+                        margin-left: 20px;
+                    }
+                     .bottom-nav li a {
                         font-size: 70%;
                         margin-left: 5px;
                     }
-
+    
+    
 }
 
 
 /* small phones to small tablets : from 481px to 767px */
+
 @media only screen and (max-width: 767px) {
+    
                     .main-nav {
-                        margin-top: 15px;
-                        margin-right: 10px;
+                    margin-top: 15px;
+                    margin-right: 10px;
                     }
 
                     .sec-nav {margin-left: 0px;}
@@ -111,27 +173,16 @@
                         margin-bottom: 0px;
                     }
     
-                    h4 { font-size: 70%;}
-
-                    .about-header {font-size: 200%;}
-
-                    .fact1 img {
-                    height: 50%;
-                    width: 80%;
-                    }
-    
 }
 
 
-
-
-
 /* small phones: from 0 to 480px */
+
 @media only screen and (max-width: 480px) {
     
                     .main-nav {
-                        margin-top: 5px;
-                        margin-right: 5%;
+                    margin-top: 5px;
+                    margin-right: 5%;
                     }
 
                     .sec-nav {margin-left: 0px;}
@@ -145,51 +196,45 @@
                     .sec-nav li a:visited {
                         font-size: 0%;
                     }
-
-                    h4 {
+    
+                    .introduction .intro h2 {
                         font-size: 60%;
-                        margin-left: 10px;
-                    }
-    
-                    .about-header {font-size: 150%;}
-
-                    .fact2 h2 {
-                        font-size: 100%;
-                        margin-top: 50px;
+                        margin-left: 20px;
                     }
 
-                    .fact2 h3 {
-                        font-size: 70%;
-                        margin-left: 15px;
-                        margin-bottom: 10px;
-                    }
-
-                    .more-info h2 {
-                        font-size: 100%;
-                    }
-                    .more-info p {
-                        font-size: 90%;
-                        text-align: justify;
-                    }
-
-                    .contact {
-                        margin-left: 5%;
-                        margin-right: 5%;
-                    }
-                    .contact h2 {font-size: 100%;}
-                    .contact div {font-size: 80%;}
-    
-                    .social-nav li a:link,
-                    .social-nav li a:visited {
-                        font-size: 90%;
-                    }
-    
                     .header-name {
                         font-size: 50%;
                     }
     
+                    .space_blog .space h2 {
+                        font-size: 60%;
+                        margin-right: 20px;
+                    }    
+                    .space_blog .space h2 a {
+                        font-size: 80%;
+                        margin-left: 20px;
+                    }
+
+                    .world_news .news h2 {
+                        font-size: 60%;
+                        margin-right: 20px;
+                    }
+
+                    .world_news .news h2 a {
+                        font-size: 80%;
+                        margin-left: 20px;
+                    }
+
+                    .books_read .books h2 {
+                        font-size: 60%;
+                        margin-right: 20px;
+                    }
+
+                    .books_read .books h2 a {
+                        font-size: 80%;
+                        margin-left: 20px;
+                    }
                     .bottom-nav li a {
                         font-size: 80%;
                     }
-    
 }
