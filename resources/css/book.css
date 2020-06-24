@@ -52,11 +52,28 @@ header {
 }
 
 .book-header {
-    font-size: 300%;
+    font-size: 90%;
     color: #fff;
     margin-left: 40px;
-    padding: 40px;
+    padding: 20px;
     font-weight: 400;
+    text-align: center;
+}
+
+.book_quote {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 90%;
+}
+
+.book_author {
+    text-align:center;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 200;
+    font-size: 80%;
+    
 }
 
 /* ---------------------------------------- */
@@ -201,4 +218,24 @@ footer p {
 
 .ion-logo-youtube:hover {
     color: #c4302b;
+}
+
+
+/* ------------------------------------------ */
+/* Sections */
+/* ------------------------------------------ */
+
+
+.answer1 .name {
+    font-size: 100%;
+    color: rgb(237, 155, 155);
+}
+
+.answer1 .author {
+    font-size: 80%;
+    color: #7c4d4d;
+}
+
+.answer1 .description {
+    text-align: justify;
 }
